@@ -1,5 +1,5 @@
 {% set name = "opam" %}
-{% set version = "2.1.2" %}
+{% set version = "2.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/ocaml/opam/releases/download/{{ version }}/opam-full-{{ version }}.tar.gz
-  sha256: de1e3efffd5942e0101ef83dcdead548cc65a93e13986aecb4a264a059457ede
+  sha256: cb2ab00661566178318939918085aa4b5c35c727df83751fd92d114fdd2fa001
 
 build:
   number: 0
@@ -40,8 +40,8 @@ about:
   home: https://github.com/ocaml/opam
   summary: A package manager for OCaml
   description: |
-      opam is a source-based package manager. It supports multiple simultaneous compiler
-      installations, flexible package constraints, and a Git-friendly development workflow.
+    opam is a source-based package manager. It supports multiple simultaneous compiler
+    installations, flexible package constraints, and a Git-friendly development workflow.
   license: LGPL-2.1-only
   license_file: LICENSE
 
