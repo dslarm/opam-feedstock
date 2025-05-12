@@ -21,6 +21,7 @@ requirements:
     - {{ compiler('cxx') }} # C++ definitely needed: https://github.com/ocaml/opam/issues/4452
     - {{ stdlib('c') }}
     - ocaml =4.11.2
+    - ocamlbuild
     - make >=4.3
     - patch >=2.7.6 # needed by `make ext-lib`
   host:
