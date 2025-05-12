@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/ocaml/opam/releases/download/{{ version }}/opam-full-{{ version }}.tar.gz
-  sha256: ee3e3c93c4420bd3e3be82dd0da40d7f3f82eaff5000d20fb1b00f1cd050a99a
+  sha256: 506ba76865dc315b67df9aa89e7abd5c1a897a7f0a92d7b2694974fdc532b346
 
 build:
   number: 1
