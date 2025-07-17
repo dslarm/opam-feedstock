@@ -19,6 +19,7 @@ requirements:
   build:
     # Note: Conda-forge's default compiler versions are being overridden in recipe/conda_build_config.yaml
     - {{ compiler('cxx') }} # C++ definitely needed: https://github.com/ocaml/opam/issues/4452
+    - {{ compiler('c') }}
     - {{ stdlib('c') }}
     - ocaml >=4.14.2
     - ocamlbuild
